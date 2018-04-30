@@ -130,3 +130,27 @@ p {
     color: #DDDBDC;
     padding-left: 200px;
 }
+
+.col-md-4.menu {
+    margin-left: 200px;
+    color: #DDDBDC;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.col-md-12.empty {
+    padding-bottom: 200px;
+
+}
+
+hr {
+    background-color: #DDDBDC;
+    width: 200px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #E54E6C;
+    letter-spacing: 2px;
+    margin-left: 200px;
+}
