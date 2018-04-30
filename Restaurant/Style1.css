@@ -136,16 +136,17 @@ p {
     color: #DDDBDC;
     height: 500px;
     overflow-y: scroll;
+    border: 2px solid rgba(229, 78, 108, .5);
 }
 
 .col-md-12.empty {
-    padding-bottom: 200px;
+    padding-bottom: 120px;
 
 }
 
 hr {
     background-color: #DDDBDC;
-    width: 200px;
+    width: 300px;
 }
 
 h2 {
@@ -154,3 +155,23 @@ h2 {
     letter-spacing: 2px;
     margin-left: 200px;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #DDDBDC;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #E54E6C;
+    }
